@@ -25,7 +25,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'cantDorm') ?>
 
-    <?php // echo $form->field($model, 'cantBaños') ?>
+    <?php // echo $form->field($model, 'cantBanos') ?>
 
     <?php // echo $form->field($model, 'supTotal') ?>
 

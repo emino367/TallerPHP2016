@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'tipoInmueble',
             'idCliente',
             'cantDorm',
-            // 'cantBaños',
+            // 'cantBanos',
             // 'supTotal',
             // 'supEdificada',
             // 'garage',

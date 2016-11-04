@@ -12,7 +12,7 @@ use Yii;
  * @property integer $tipoInmueble
  * @property integer $idCliente
  * @property integer $cantDorm
- * @property integer $cantBaños
+ * @property integer $cantBanos
  * @property integer $supTotal
  * @property integer $supEdificada
  * @property integer $garage
@@ -37,7 +37,7 @@ class Inmueble extends \yii\db\ActiveRecord
     {
         return [
             [['id', 'nombre', 'tipoInmueble', 'idCliente'], 'required'],
-            [['id', 'tipoInmueble', 'idCliente', 'cantDorm', 'cantBaños', 'supTotal', 'supEdificada', 'garage', 'patio'], 'integer'],
+            [['id', 'tipoInmueble', 'idCliente', 'cantDorm', 'cantBanos', 'supTotal', 'supEdificada', 'garage', 'patio'], 'integer'],
             [['latitud', 'longitud'], 'number'],
             [['nombre'], 'string', 'max' => 30],
         ];
@@ -54,7 +54,7 @@ class Inmueble extends \yii\db\ActiveRecord
             'tipoInmueble' => 'Tipo Inmueble',
             'idCliente' => 'Id Cliente',
             'cantDorm' => 'Cant Dorm',
-            'cantBaños' => 'Cant Baños',
+            'cantBanos' => 'Cant Banos',
             'supTotal' => 'Sup Total',
             'supEdificada' => 'Sup Edificada',
             'garage' => 'Garage',

@@ -22,7 +22,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'cantDorm')->textInput() ?>
 
-    <?= $form->field($model, 'cantBaños')->textInput() ?>
+    <?= $form->field($model, 'cantBanos')->textInput() ?>
 
     <?= $form->field($model, 'supTotal')->textInput() ?>
 

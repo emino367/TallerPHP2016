@@ -18,7 +18,7 @@ class InmuebleSearch extends Inmueble
     public function rules()
     {
         return [
-            [['id', 'tipoInmueble', 'idCliente', 'cantDorm', 'cantBaños', 'supTotal', 'supEdificada', 'garage', 'patio'], 'integer'],
+            [['id', 'tipoInmueble', 'idCliente', 'cantDorm', 'cantBanos', 'supTotal', 'supEdificada', 'garage', 'patio'], 'integer'],
             [['nombre'], 'safe'],
             [['latitud', 'longitud'], 'number'],
         ];
@@ -64,7 +64,7 @@ class InmuebleSearch extends Inmueble
             'tipoInmueble' => $this->tipoInmueble,
             'idCliente' => $this->idCliente,
             'cantDorm' => $this->cantDorm,
-            'cantBaños' => $this->cantBaños,
+            'cantBanos' => $this->cantBanos,
             'supTotal' => $this->supTotal,
             'supEdificada' => $this->supEdificada,
             'garage' => $this->garage,

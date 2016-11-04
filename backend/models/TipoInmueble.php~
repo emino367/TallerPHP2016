@@ -27,8 +27,7 @@ class TipoInmueble extends \yii\db\ActiveRecord
     {
         return [
             [['nombre'], 'required'],
-            [['id'], 'integer'],
-            [['nombre'], 'string', 'max' => 20],
+	    [['nombre'], 'string', 'max' => 20],
         ];
     }
 
@@ -38,7 +37,6 @@ class TipoInmueble extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
             'nombre' => 'Nombre',
         ];
     }
